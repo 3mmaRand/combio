@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - file_systems.qmd
     - summary.qmd
     - references.qmd
 
