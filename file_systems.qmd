@@ -1,14 +1,16 @@
----
-title: "Understanding file systems"
----
+# Understanding file systems
 
-## A file system contains files and folders
+A file system contains files and folders
 
 A file is a unit of storage on a computer
 
-folder is a directory getwd(), dir() in R, cd, pwd in unix, os.getcwd() in Python
+files systems are hierarchical
 
-hierarchical
+```{r}
+fs::dir_tree()
+```
+
+folder is a directory getwd(), dir() in R, cd, pwd in unix, os.getcwd() in Python
 
 using a file explorer
 
