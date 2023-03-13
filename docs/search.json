@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "file_systems.html",
+    "href": "file_systems.html",
+    "title": "2  Understanding file systems",
+    "section": "",
+    "text": "A file is a unit of storage on a computer\nfiles of file plain text, markup and markdown\nfile extensions\nthe relationship between file extensions and programs\nA file system contains files and folders\nfiles systems are hierarchical\n![A file hierarchy containing 4 levels of folders and files\n](images/image-115079030.png){fig-alt=“At the top level there is a directory called Home/; Inside Home/ are two directories (docs/ and programs/) and two files doc1.txt and image.jpg. Inside docs/ there is a file called doc2.txt and a directory called data/ which contains doc3.txt and doc4.txt. Inside programs/ are three .exe files” width=“600”}\nfolder is a directory getwd(), dir() in R, cd, pwd in unix, os.getcwd() in Python\nusing a file explorer, showing file extensions\nPaths\nWorking directory\nRelative and absolute paths"
+  }
+]
