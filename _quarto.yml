@@ -1,10 +1,15 @@
 project:
   type: book
-  output-dir: docs
+  output-dir: _book
+execute: 
+  echo: true
+  warning: false
+  include: true
 
 book:
-  title: "combio"
-  author: "Jane Doe"
+  title: "Data Analysis using R"
+  subtitle: "including what they forgot to teach you about computers"
+  author: "Emma Rand"
   date: "16/10/2022"
   chapters:
     - index.qmd
