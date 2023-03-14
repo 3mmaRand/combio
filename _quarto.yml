@@ -1,6 +1,5 @@
 project:
   type: book
-  output-dir: docs
 
 execute: 
   echo: true
@@ -12,6 +11,7 @@ book:
   subtitle: "including what they forgot to teach you about computers"
   author: "Emma Rand"
   date: "16/10/2022"
+  site-url: "https://3mmarand.github.io/combio/"
   chapters:
     - index.qmd
     - intro.qmd
@@ -23,7 +23,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: solar
   pdf:
     documentclass: scrreprt
 
