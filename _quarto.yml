@@ -5,6 +5,7 @@ execute:
   echo: true
   warning: false
   include: true
+  freeze: auto
 
 book:
   title: "Data Analysis using R"
